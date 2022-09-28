@@ -1,5 +1,6 @@
 import React from 'react';
 import WorkImg from '../assets/tug.png';
+import { Link } from 'react-scroll';
 
 const Work = () => {
   return (
@@ -9,7 +10,7 @@ const Work = () => {
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
             Work
           </p>
-          <p className='py-6'>// Check out some of my recent work</p>
+          <p className='py-6'>Check out some of my recent work</p>
         </div>
 
 {/* Container */}
@@ -26,16 +27,21 @@ const Work = () => {
                 Tug of War App
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href="/">
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/FysalBeau/TugOfWar'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
                 </a>
+                <Link to='tug' smooth={true} duration={500}>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                        Details
+                    </button>
+                </Link>
               </div>
             </div>
           </div>
