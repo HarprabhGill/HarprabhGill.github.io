@@ -190,25 +190,60 @@ const TugofWar = () => {
                             </figcaption>
                         </div>
                         <div>
-                            <img src={image12} className="sliderimg"/>
+                            <div>
+                                <img src={image12} className="sliderimg"/>
+                                <figcaption className='py-6'>
+                                This feature was thought of by Navjot as we thought the game needed to have more depth than just spamming the button. This is why he thought of the idea to make the button become darker at times so the user has to time it in order to have a stronger pull.
+                                </figcaption>
+                            </div>
                         </div>
                         <div>
-                            <img src={image13} className="sliderimg"/>
+                            <div>
+                                <img src={image13} className="sliderimg"/>
+                                <figcaption className='py-6'>
+                                The moving button idea was suggested by Fysal after discussing how to make the interaction with the button more dynamic. Instead of the player interacting with a static fixed button the button would move around within a bounded space. The benefits of this implementation would be that players would be penalized for trying to mash the button without having to think. Alternatively, players would have to be paying attention to the button shifting position if they wanted to keep the lead. Failure to do so would result in wasted time clicking the previous button location. This system would reward attentive players who are both visually “connecting the dots” between their physical senses (touch) and visual senses (sight). Although this would add a layer of depth to the game space the issue is that since we transitioned from a button to a physical rope spread across the screen with two hand-shaped buttons constituting players holding a rope (hence the theme of tug-of-war). Therefore, having the button move and thus detach from the rope itself is jarring and breaks the logical take away of two players tugging on a rope. We ultimately decided to not incorporate this feature in our final design, even so, it gives a different perspective to the game that could be a feature in a variation of the tug of war concept. 
+                                </figcaption>
+                            </div>
                         </div>
                         <div>
-                            <img src={image14} className="sliderimg"/>
+                            <div>
+                                <img src={image14} className="sliderimg"/>
+                                <figcaption className='py-6'>
+                                The idea for a scoreboard was a collective idea we had early in the design process. We knew that any two player game should accommodate a competitive player base who are focused on the winning/losing aspect to the game. To deal with this we knew we had to have some way of keeping track of player score. This early concept sketch shows a corner scoreboard showing player 1 and 2 scores displayed in the user interface. As our game is intended to be played on a mobile device, we did not want to clutter the UI with a scoreboard. Instead, we ended up opting for a win screen that would be displayed after a round is complete.
+                                </figcaption>
+                            </div>
                         </div>
                         <div>
-                            <img src={image15} className="sliderimg"/>
+                            <div>
+                                <img src={image15} className="sliderimg"/>
+                                <figcaption className='py-6'>
+                                Our first iterations used a knot in the middle that would move towards the winning player. Later we learned that real tug of war actually uses a flag instead of a knot, so we decided to replace it with a flag for our final version.
+                                </figcaption>
+                            </div>
                         </div>
                         <div>
-                            <img src={image16} className="sliderimg"/>
+                            <div>
+                                <img src={image16} className="sliderimg"/>
+                                <figcaption className='py-6'>
+                                This was one of the most important functions that we had to implement. We needed our game to be multi-touch capable so the gameplay feels smooth. Before implementing this feature, we were discussing other ideas such as the pulsing button to make the game more turn based. 
+                                </figcaption>
+                            </div>
                         </div>
                         <div>
-                            <img src={image17} className="sliderimg"/>
+                            <div>
+                                <img src={image17} className="sliderimg"/>
+                                <figcaption className='py-6'>
+                                The game did not feel as immersive of as “game” like with a visible browser nav bar. So we collectively decided we would need to make our game fullscreen. We initially had a button to make the window fullscreen. But we felt that it looked terrible and cluttered the screen, so instead we implemented a feature where if you tap anywhere on the screen except the hands, it will make the window fullscreen. If it is already in fullscreen, then it will go back to windowed mode. 
+                                </figcaption>
+                            </div>
                         </div>
                         <div>
-                            <img src={image18} className="sliderimg"/>
+                            <div>
+                                <img src={image18} className="sliderimg"/>
+                                <figcaption className='py-6'>
+                                This is the game win screen, when a player wins they see this screen. We decided on this instead of a scorecard on the main game screen because the scorecard would clutter up the main game window. The rematch button allows the players to keep playing without resetting the score. The reset game button resets the scores and the game. 
+                                </figcaption>
+                            </div>
                         </div>
                         <div>
                             <img src={image19} className="sliderimg"/>
