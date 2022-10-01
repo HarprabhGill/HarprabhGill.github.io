@@ -10,6 +10,7 @@ import {
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/HG.jpg';
+import Resume from '../assets/Harprabh-Gill-Resume.pdf';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -101,7 +102,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.linkedin.com/in/harprabh-gill-825121252/'
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -117,7 +118,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='mailto:hpgill6123@gmail.com'
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -125,7 +126,7 @@ const Navbar = () => {
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href={Resume}
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
