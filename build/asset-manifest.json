@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.c4f2c401.css",
-    "main.js": "/static/js/main.5d9048f1.js",
+    "main.js": "/static/js/main.c8b81c61.js",
     "static/media/tug.png": "/static/media/tug.57c56dc9ccc4ca6c50ef.png",
     "static/media/img16.png": "/static/media/img16.4054cea4d06aa3cfb441.png",
     "static/media/img13.png": "/static/media/img13.16792a749ebc7c23bd5b.png",
     "static/media/img19.png": "/static/media/img19.1752acdc0982fd137029.png",
     "static/media/img15.png": "/static/media/img15.23033d1e8679507d79c6.png",
     "static/media/img20.png": "/static/media/img20.6a22fde5845584dd9ab7.png",
+    "static/media/Harprabh-Gill-Resume.pdf": "/static/media/Harprabh-Gill-Resume.fadc96c4ff113f9b9c6b.pdf",
     "static/media/img17.png": "/static/media/img17.cb2a62dbe55638b25e76.png",
     "static/media/img14.png": "/static/media/img14.8ff047fe89709617cab6.png",
     "static/media/img12.png": "/static/media/img12.920cf773280d70a11bb9.png",
@@ -35,10 +36,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.c4f2c401.css.map": "/static/css/main.c4f2c401.css.map",
-    "main.5d9048f1.js.map": "/static/js/main.5d9048f1.js.map"
+    "main.c8b81c61.js.map": "/static/js/main.c8b81c61.js.map"
   },
   "entrypoints": [
     "static/css/main.c4f2c401.css",
-    "static/js/main.5d9048f1.js"
+    "static/js/main.c8b81c61.js"
   ]
 }
