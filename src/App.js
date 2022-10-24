@@ -5,7 +5,8 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import TugofWar from "./components/TugofWar";
-
+import OrigamiUnlock from "./components/OrigamiUnlock";
+import PoseUnlock from "./components/PoseUnlock";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Work />
       <Contact />
       <TugofWar />
+      <OrigamiUnlock />
+      <PoseUnlock />
     </div>
   );
 }

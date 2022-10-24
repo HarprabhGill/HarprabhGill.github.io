@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.c4f2c401.css",
-    "main.js": "/static/js/main.c8b81c61.js",
+    "main.js": "/static/js/main.3d82a5d6.js",
+    "static/media/php.png": "/static/media/php.aa680f57bf75b5d5acdc.png",
+    "static/media/c++.png": "/static/media/c++.64f637357bce0ccc8384.png",
     "static/media/tug.png": "/static/media/tug.57c56dc9ccc4ca6c50ef.png",
     "static/media/img16.png": "/static/media/img16.4054cea4d06aa3cfb441.png",
     "static/media/img13.png": "/static/media/img13.16792a749ebc7c23bd5b.png",
@@ -13,12 +15,12 @@
     "static/media/img14.png": "/static/media/img14.8ff047fe89709617cab6.png",
     "static/media/img12.png": "/static/media/img12.920cf773280d70a11bb9.png",
     "static/media/img11.png": "/static/media/img11.ebbe75fb95c784b2f8fe.png",
+    "static/media/vs.png": "/static/media/vs.2d5c5986e3b4b5fea163.png",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/aws.png": "/static/media/aws.95bdee6b9922c9b94fd5.png",
+    "static/media/c.png": "/static/media/c.bf0af88d24cd724c83bc.png",
     "static/media/img4.jpg": "/static/media/img4.d1c373d2c7175bb8fde6.jpg",
-    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/img18.png": "/static/media/img18.ada18a71845d07e3d9fa.png",
+    "static/media/python.png": "/static/media/python.3773b61d7de3dd14e7ef.png",
     "static/media/img1.jpg": "/static/media/img1.697ab0553b027bc1b46e.jpg",
     "static/media/img10.jpg": "/static/media/img10.e3bdf78058f7e66e5101.jpg",
     "static/media/img7.jpg": "/static/media/img7.d6e359f5c733e44506ff.jpg",
@@ -32,14 +34,14 @@
     "static/media/img2.jpg": "/static/media/img2.bfc2b3c01609d89f7495.jpg",
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/java.png": "/static/media/java.6c64373d3b7415758078.png",
     "index.html": "/index.html",
     "main.c4f2c401.css.map": "/static/css/main.c4f2c401.css.map",
-    "main.c8b81c61.js.map": "/static/js/main.c8b81c61.js.map"
+    "main.3d82a5d6.js.map": "/static/js/main.3d82a5d6.js.map"
   },
   "entrypoints": [
     "static/css/main.c4f2c401.css",
-    "static/js/main.c8b81c61.js"
+    "static/js/main.3d82a5d6.js"
   ]
 }

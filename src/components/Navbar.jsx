@@ -9,8 +9,8 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/HG.jpg';
-import Resume from '../assets/Harprabh-Gill-Resume.pdf';
+import Logo from '../assets/HG2.png';
+import Resume from '../assets/Harprabh_Gill.pdf';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
