@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import TugofWar from "./components/TugofWar";
 import OrigamiUnlock from "./components/OrigamiUnlock";
 import PoseUnlock from "./components/PoseUnlock";
+import VirtualTherapy from "./components/VirtualTherapy";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <TugofWar />
       <OrigamiUnlock />
       <PoseUnlock />
+      <VirtualTherapy />
     </div>
   );
 }

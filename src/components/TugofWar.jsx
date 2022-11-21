@@ -176,7 +176,7 @@ const TugofWar = () => {
                 </div>
 
                 <div className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
-                    <AliceCarousel autoPlay autoPlayInterval="3000">
+                    <AliceCarousel autoPlay infinite="true" autoPlayInterval="3000">
                         <div>
                             <img src={image11} className="sliderimg"/>
                             <figcaption className='py-6'>
