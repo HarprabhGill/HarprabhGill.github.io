@@ -8,6 +8,7 @@ import TugofWar from "./components/TugofWar";
 import OrigamiUnlock from "./components/OrigamiUnlock";
 import PoseUnlock from "./components/PoseUnlock";
 import VirtualTherapy from "./components/VirtualTherapy";
+import PostureAlert from "./components/PostureAlert";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <OrigamiUnlock />
       <PoseUnlock />
       <VirtualTherapy />
+      <PostureAlert />
     </div>
   );
 }

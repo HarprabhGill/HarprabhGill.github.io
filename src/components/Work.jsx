@@ -2,6 +2,7 @@ import React from 'react';
 import WorkImg from '../assets/tug.png';
 import OrigamiImg from '../assets/origami.png';
 import TherapyImg from '../assets/arctic.png';
+import PostureImg from '../assets/postureAlert.jpg';
 import { Link } from 'react-scroll';
 
 const Work = () => {
@@ -118,6 +119,33 @@ const Work = () => {
                   </button>
                 </a>
                 <Link to='therapy' smooth={true} duration={500}>
+                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                        Details
+                    </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          {/* Posture Alert*/}
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${PostureImg})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-2xl font-bold text-white tracking-wider'>
+                Posture Alert
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://glitch.com/edit/#!/vr-therapist-cpsc581'>
+                  <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+                <Link to='posture' smooth={true} duration={500}>
                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                         Details
                     </button>

@@ -206,11 +206,11 @@ const VirtualTherapy = () => {
                 </div>
                 <div className="App py-40">
                     <h1>Virtual Therapy Storyboard</h1>
-                    <YoutubeEmbed embedId="MUiNdChiDOQ" />
+                    <YoutubeEmbed embedId="3SKSEE3tBOM" />
                 </div>
                 <div className="App py-40">
                     <h1>Virtual Therapy Demo</h1>
-                    <YoutubeEmbed embedId="MUiNdChiDOQ" />
+                    <YoutubeEmbed embedId="svSxHHkrLTQ" />
                 </div>
 
             </div>
