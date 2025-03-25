@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Harprabh Gill</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="w3-dark-grey">
+    <script type="text/javascript"></script>
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+      <!--My picture in top left-->
+      <img src="/images/pic.jpeg" style="width: 100%" />
+
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p>HOME</p>
+      </a>
+      <a
+        href="#about"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>ABOUT</p>
+      </a>
+      <a
+        href="#projects"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-eye w3-xxlarge"></i>
+        <p>PROJECTS</p>
+      </a>
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large w3-hover-black"
+      >
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p>CONTACT</p>
+      </a>
+
+      <!-- Social Icons -->
+      <div class="social-container">
+        <ul>
+            <li class="social-item linkedin">
+                <a href="https://linkedin.com/in/harprabh-hp-gill-825121252" target="_blank">
+                    <span>LinkedIn</span> <i class="fab fa-linkedin"></i>
+                    <img src="images/linkedin.png" alt="Linked" />
+                </a>
+            </li>
+            <li class="social-item github">
+                <a href="https://github.com/HarprabhGill" target="_blank">
+                    <span>GitHub</span> <i class="fab fa-github"></i>
+                    <img src="images/github.png" alt="GitHub" />
+                </a>
+            </li>
+            <li class="social-item email">
+                <a href="mailto:hpgill6123@gmail.com">
+                    <span>Email</span> <i class="fas fa-envelope"></i>
+                    <img src="images/email.png" alt="Email" />
+                </a>
+            </li>
+            <li class="social-item resume">
+                <a href="images/HarprabhGill.pdf" target="_blank">
+                    <span>Resume</span> <i class="fas fa-file-alt"></i>
+                    <img src="images/resume.png" alt="Resume" />
+                </a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div
+        class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small"
+      >
+        <a href="#" class="w3-bar-item w3-button" style="width: 25% !important"
+          >HOME</a
+        >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >ABOUT</a
+        >
+        <a
+          href="#projects"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >PROJECTS</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button"
+          style="width: 25% !important"
+          >CONTACT</a
+        >
+      </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main"> 
+
+    <!-- Header/Home-->
+      <header class="w3-container w3-padding-32 w3-center w3-black id="home">
+        <h1 class="w3-jumbo">
+          <span class="w3-hide-small">I'm</span> Harprabh Gill.
+        </h1>
+        <p>Nice to meet you. Please take a look around.</p>
+        <img
+          src="/images/pic.jpeg"
+          alt="boy"
+          class="w3-image"
+          width="992"
+          height="1108"
+        />
+      </header>
+
+    <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+        <h2 class="w3-text-light-grey">Harprabh Gill</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+        <p style="color: whitesmoke;">
+          Hello! I'm a recent Computer Science graduate from the University of Calgary. I have hands-on experience in data engineering from my internship at Suncor Energy and developed a keen interest in leveraging data to drive meaningful insights and solutions. I also like to create software projects in my free time and have dabbled a little bit in machine learning.
+        </p>
+    
+        <div class="skills-container">
+          <div class="content">
+              <h1 class="title">Skills</h1>
+      
+              <div class="skills-grid">
+                  <div class="skill-card">
+                      <img src="/images/python.png" alt="Python icon" />
+                      <p>Python</p>
+                  </div>
+                  <div class="skill-card">
+                      <img src="/images/c.png" alt="C icon" />
+                      <p>C</p>
+                  </div>
+                  <div class="skill-card">
+                      <img src="/images/c++.png" alt="C++ icon" />
+                      <p>C++</p>
+                  </div>
+                  <div class="skill-card">
+                      <img src="/images/java.png" alt="Java icon" />
+                      <p>Java</p>
+                  </div>
+                  <div class="skill-card">
+                      <img src="/images/sql.png" alt="SQL icon" />
+                      <p>SQL</p>
+                  </div>
+                  <div class="skill-card">
+                      <img src="/images/html.png" alt="HTML icon" />
+                      <p>HTML</p>
+                  </div><div class="skill-card">
+                      <img src="/images/css.png" alt="CSS icon" />
+                      <p>CSS</p>
+                  </div>
+                  <div class="skill-card">
+                      <img src="/images/javascript.png" alt="Javascript icon" />
+                      <p>Javascript</p>
+                  </div>
+                  <div class="skill-card">
+                      <img src="/images/react.png" alt="React icon" />
+                      <p>React</p>
+                  </div><div class="skill-card">
+                    <img src="/images/php.png" alt="PHP icon" />
+                    <p>PHP</p>
+                  </div>
+                  <div class="skill-card">
+                      <img src="/images/vs.png" alt="VS icon" />
+                      <p>Visual Studio</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="/images/github.png" alt="GitHub icon" />
+                      <p>GitHub</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="/images/terminal.png" alt="terminal icon" />
+                    <p>Command Line</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="/images/datafactory.png" alt="datafactory icon" />
+                      <p>Azure Data Factory</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="/images/Databricks.png" alt="Databricks icon" />
+                    <p>Azure Databrick</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="/images/powerbi.png" alt="powerbi icon" />
+                    <p>PowerBi</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="/images/jupyter.png" alt="jupyter icon" />
+                    <p>Jupyter</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="/images/Gephi-logo.png" alt="Gephi icon" />
+                    <p>Gephi</p>
+                  </div>
+                  <div class="skill-card">
+                    <img src="/images/pandas.png" alt="pandas icon" />
+                    <p>Pandas</p>
+                  </div>
+                  
+                  <div class="skill-card">
+                    <img src="/images/spark.png" alt="spark icon" />
+                    <p>Apache Spark</p>
+                  </div>
+              </div>
+          </div>    
+      </div>
+
+    <!-- Project Section -->
+      <div class="w3-padding-64 w3-content" id="projects">
+        <h2 class="w3-text-light-grey">My Projects</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+
+        <!-- Container -->
+          <div class="container">
+            <div class="grid">
+
+                <!-- Tug of War -->
+                <div class="grid-item" style="background-image: url('images/tug.png');">
+                    <div class="hover-content">
+                        <h2>Tug of War App</h2>
+                        <div class="buttons">
+                          <button class="btn details-btn" data-modal="modal-tug">Details</button>  
+                          <a href="https://github.com/FysalBeau/TugOfWar" target="_blank" class="btn details-btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Origami Unlock -->
+                <div class="grid-item" style="background-image: url('images/origami.png');">
+                    <div class="hover-content">
+                        <h2>Origami Unlock</h2>
+                        <div class="buttons">
+                            <button class="btn details-btn" data-modal="modal-origami">Details</button>
+                            <a href="https://github.com/HarprabhGill/Origami-Unlock" target="_blank" class="btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pose Unlock -->
+                <div class="grid-item" style="background-image: url('images/pose.png');">
+                    <div class="hover-content">
+                        <h2>Pose Unlock</h2>
+                        <div class="buttons">
+                            <button class="btn details-btn" data-modal="modal-pose">Details</button>
+                            <a href="https://github.com/FysalBeau/Pose-Unlock" target="_blank" class="btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Virtual Therapy -->
+                <div class="grid-item" style="background-image: url('images/therapy.png');">
+                    <div class="hover-content">
+                        <h2>Virtual Therapy</h2>
+                        <div class="buttons">
+                            <button class="btn details-btn" data-modal="modal-therapy">Details</button>
+                            <a href="https://glitch.com/edit/#!/vr-therapist-cpsc581" target="_blank" class="btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Posture Alert -->
+                <div class="grid-item" style="background-image: url('images/postureAlert.jpg');">
+                    <div class="hover-content">
+                        <h2>Posture Alert</h2>
+                        <div class="buttons">
+                            <button class="btn details-btn" data-modal="modal-posture">Details</button>
+                            <a href="https://github.com/HarprabhGill/PostureAlert" target="_blank" class="btn">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        <!-- Modals -->
+          <div id="modal-tug" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Tug of War App</h2>
+                <p>The project we chose to take on is a Tug of War app. In this app two users will compete head on to try and pull the rope towards themselves. In order to do this they will click the hands(button) which will then pull the rope towards them while also making the background gradient become the winner’s team color (red or blue). While doing this there will be a bar on the side of the screen which will go up and down and will determine how strong of a pull the user will have on the rope. If the user clicks the button and the slider is on the white section, then the rope will move towards the user by a large margin, however if the slider is on the black section, then the rope will move towards the other user by a large margin. When the slider isn't on the black or white section then the rope will move towards the user slightly which is also the most likely to occur.</p>
+                <div class="video-container">
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/2R2J6Jev4jY" 
+                          frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Grid of Pictures -->
+                <div class="image-grid">
+                  <img src="images/TugDetailed/img11.png" alt="Tug 1">
+                  <img src="images/TugDetailed/img12.png" alt="Tug 2">
+                  <img src="images/TugDetailed/img13.png" alt="Tug 3">
+                  <img src="images/TugDetailed/img14.png" alt="Tug 4">
+                  <img src="images/TugDetailed/img15.png" alt="Tug 5">
+                  <img src="images/TugDetailed/img16.png" alt="Tug 6">
+                  <img src="images/TugDetailed/img17.png" alt="Tug 7">
+                  <img src="images/TugDetailed/img18.png" alt="Tug 8">
+                  <img src="images/TugDetailed/img19.png" alt="Tug 9">
+                  <img src="images/TugDetailed/img20.png" alt="Tug 10">
+                </div>
+
+            </div>
+          </div>
+
+          <div id="modal-origami" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Origami Unlock</h2>
+                <p>The idea of our touch-based unlock is to allow users to open their phones with a sequence of origami folds as passwords. Dotted lines represent folding locations on the paper. The divide on the paper is made into separate buttons. Hitting the wrong button or a button in the wrong sequence restarts the unlock process from the lock screen. Every correct selection leads to an animation that shows the paper folded over where the dotted line was. The password entry completes after the last fold, showing the completed origami figure for a moment. The phone is then unlocked.</p>
+                <div class="video-container">
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/edaLTdUpwvk" 
+                          frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Grid of Pictures -->
+                <div class="image-grid">
+                  <img src="images/origami/origami1.png" alt="Origami 1">
+                  <img src="images/origami/origami2.png" alt="Origami 2">
+                  <img src="images/origami/origami3.png" alt="Origami 3">
+                  <img src="images/origami/origami4.png" alt="Origami 4">
+                  <img src="images/origami/origami5.png" alt="Origami 5">
+                  <img src="images/origami/origami6.png" alt="Origami 6">
+                  <img src="images/origami/origami7.png" alt="Origami 7">
+                </div>
+            </div>
+          </div>
+          
+          <div id="modal-pose" class="modal">
+              <div class="modal-content">
+                  <span class="close-btn">&times;</span>
+                  <h2>Pose Unlock</h2>
+                  <p>The idea for this project was to use the teachable machine shown in lecture to train a model using our whole bodies as letters. Swiping up begins the unlock session. A letter is determined by the orientation of the user's whole body. A letter is entered into the password bar every time the timer reaches 0. Users are initially given 20 seconds to get ready in front of the camera. Each countdown after that gives the user 10 seconds to hold their pose for their intended letter. A delete button allows the user to delete the last letter entry. Correct password entries unlock the phone, while incorrect entries result in an error message and restart the session.</p>
+                  <div class="video-container">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/MUiNdChiDOQ" 
+                            frameborder="0" allowfullscreen></iframe>
+                  </div>
+              </div>
+          </div>
+
+          <div id="modal-therapy" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Virtual Therapy</h2>
+                <p>The project we chose to take on is Virtual Therapy. In this virtual app individual’s can talk to their therapist virtually. In order to do this they will need to join a room by first choosing a setting, and then send the room id to the therapist so that they can join. Once they do this the room will load in with the environment chosen and both users will be in the room itself. From there, voice proximity chat will be enabled once the users give permission to allow the program to access their microphone. Now, both the user and the therapist are free to talk and look around their surroundings in the comfort of their own home while also remaining anonymous.</p>
+                <div class="video-container">
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/svSxHHkrLTQ" 
+                          frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Grid of Pictures -->
+                <div class="image-grid">
+                  <img src="images/TherapyDetailed/home.jpg" alt="Therapy 1">
+                  <img src="images/TherapyDetailed/character.jpg" alt="Therapy 2">
+                  <img src="images/TherapyDetailed/beach1.jpg" alt="Therapy 3">
+                  <img src="images/TherapyDetailed/beach2.jpg" alt="Therapy 4">
+                  <img src="images/TherapyDetailed/forest1.jpg" alt="Therapy 5">
+                  <img src="images/TherapyDetailed/forest2.jpg" alt="Therapy 6">
+                  <img src="images/TherapyDetailed/office1.jpg" alt="Therapy 7">
+                  <img src="images/TherapyDetailed/office2.jpg" alt="Therapy 8">
+                  <img src="images/TherapyDetailed/winter1.jpg" alt="Therapy 9">
+                  <img src="images/TherapyDetailed/winter2.jpg" alt="Therapy 10">
+                </div>
+            </div>
+          </div>
+
+          <div id="modal-posture" class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Posture Alert</h2>
+                <p>As the technology around us advances, the more the world we live in is evolving. Work, education, entertainment, and essentially everything we interact with is now shifting online. These shifts are leading to human beings living in a much more sedentary life style weakening their core and leading to bad posture. This bad posture can lead to many problems such as back pain and spinal dysfunction. Which is why the project we chose to take on is Posture Alert. This is a device that you can attach to your chair which you spend the most amount of time on. Once attached the sensors on the device will identify if you are slouching. If you are slouching or have bad posture the device will make noise to alert you to straighten your posture.</p>
+                <div class="video-container">
+                  <iframe width="100%" height="400" src="https://www.youtube.com/embed/5xFqm6QPP1I" 
+                          frameborder="0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Grid of Pictures -->
+                <div class="image-grid">
+                  <img src="images/PostureDetailed/detail1.png" alt="Posture 1">
+                  <img src="images/PostureDetailed/detail2.png" alt="Posture 2">
+                  <img src="images/PostureDetailed/detail3.png" alt="Posture 3">
+                  <img src="images/PostureDetailed/detail4.png" alt="Posture 4">
+                  <img src="images/PostureDetailed/detail5.png" alt="Posture 5">
+                  <img src="images/PostureDetailed/detail6.png" alt="Posture 6">
+                  <img src="images/PostureDetailed/detail7.png" alt="Posture 7">
+                  <img src="images/PostureDetailed/detail8.png" alt="Posture 8">
+                  <img src="images/PostureDetailed/detail9.png" alt="Posture 9">
+                  <img src="images/PostureDetailed/detail10.png" alt="Posture 10">
+                </div>
+            </div>
+          </div>
+
+      </div>
+    <!-- End Project Section -->
+
+    <!-- Contact Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey">Contact Me</h2>
+        <hr style="width: 200px" class="w3-opacity" />
+
+        <div class="w3-section">
+          <p class="w3-text-light-grey">
+            <i
+              class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            ></i>
+            Phone: +1 403-973-6123
+          </p>
+          <br />
+          <p class="w3-text-light-grey">
+            <i
+              class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"
+            >
+            </i>
+            Email: hpgill@gmail.com
+          </p>
+        </div>
+        <br />
+        <p class="w3-text-light-grey">Let's get in touch. Send me a message:</p>
+
+        <form method='POST' action="mailto:hpgill6123@gmail.com">
+          <p style="margin-top: 10px;">
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Name"
+              required
+              name="Name"
+            />
+          </p>
+          <p style="margin-top: 10px;">
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Email"
+              required
+              name="Email"
+            />
+          </p>
+          <p style="margin-top: 10px;">
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Subject"
+              required
+              name="Subject"
+            />
+          </p>
+          <p style="margin-top: 10px;">
+            <input
+              class="w3-input w3-padding-16"
+              type="text"
+              placeholder="Message"
+              required
+              name="Message"
+            />
+          </p>
+          <p style="margin-top: 10px;">
+            <button
+              class="w3-button w3-light-grey w3-padding-large"
+              type="submit"
+            >
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+      </div>
+    <!-- End Contact Section -->
+  
+    <script src="script.js"></script>
+  </body>
+</html>
